@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ScratchApp">
         <activity
-            android:name=".FullscreenActivity"
+            android:name="com.example.tinkercad.FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen"
-            android:theme="@style/Theme.ScratchApp.Fullscreen">
+           >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
